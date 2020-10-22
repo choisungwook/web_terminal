@@ -23,3 +23,21 @@ npx webpack
 ```sh
 npx webpack --config webpack.config.js
 ```
+
+<br>
+
+# 5. npm run build 설정
+* npm run명령어 실행시 webpack빌드 설정
+* script필드에 build필드 추가
+```json
+{
+  "name": "Webpack_Getting_Start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+...
+```
