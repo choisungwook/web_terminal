@@ -4,14 +4,14 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
+  entry: './client/index.js',
   optimization: {
     minimize: true
   },
   plugins: [
     new HtmlWebpackPlugin({
       filename: "test.html",
-      template: "./src/test.html",
+      template: "./client/test.html",
       minify: false
     }),
     new MiniCssExtractPlugin({
