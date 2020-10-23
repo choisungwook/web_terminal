@@ -10,8 +10,7 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     filename: "test.html",
     template: "./src/test.html",
-    minify: false,
-    inject: false
+    minify: false
   })],
   output: {
     filename: 'main.js',
