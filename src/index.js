@@ -1,4 +1,5 @@
 import { Terminal } from 'xterm';
+import './xterm.css'
 
 const term = new Terminal();
 
