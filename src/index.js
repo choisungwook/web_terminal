@@ -1,8 +1,7 @@
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+import { Terminal } from 'xterm';
 
-    return element;
-}
+const term = new Terminal();
 
-document.body.appendChild(component());
+term.open(document.getElementById('xterm-container'));
+
+term.write("hello world");
