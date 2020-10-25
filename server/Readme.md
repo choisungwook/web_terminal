@@ -1,4 +1,5 @@
 # 실행 방법
+* 리눅스로 실행 시 일반유저 권한으로 실행(node-pty는 root권한으로 설치 시 실패)
 ```sh
 npm install ws
 npm install node-pty
